@@ -2,6 +2,7 @@ clear all;
 close all;
 clc
 img = imread('sunflower.jpg');
+imshow(img);
 img = rgb2gray(img);
 [row, col] = size(img);
 bit = input('Enter the bitplane image to see: (1: MSB, 8: LSB) ');
